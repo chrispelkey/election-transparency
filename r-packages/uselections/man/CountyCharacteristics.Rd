@@ -26,12 +26,22 @@
 \item{Age75_84}{County Population Age 75-84 (2015 ACS 5-year estimate)}
 \item{Age85}{County Population Age 85+ (2015 ACS 5-year estimate)}
 \item{MedianAge}{Median Age in County (2015 ACS 5-year estimate)}
-\item{White}{County Population, Race=White (2015 ACS 5-year estimate)}
-\item{Black}{County Population, Race=Black (2015 ACS 5-year estimate)}
-\item{AmericanIndianAlaskaNative}{County Population, Race=American Indian / Alaska Native (2015 ACS 5-year estimate)}
-\item{Asian}{County Population, Race=Asian (2015 ACS 5-year estimate)}
-\item{NativeHawaiianPacificIslander}{County Population, Race=Native Hawaiian / Pacific Islander (2015 ACS 5-year estimate)}
-\item{OtherRace}{County Population, Race=Other (2015 ACS 5-year estimate)}
+\item{White}{County Population, Race=White, alone or in combination (2015 ACS 5-year estimate)}
+\item{Black}{County Population, Race=Black/African American, alone or in combination (2015 ACS 5-year estimate)}
+\item{AmericanIndianAlaskaNative}{County Population, Race=American Indian / Alaska Native, alone or in combination (2015 ACS 5-year estimate)}
+\item{Asian}{County Population, Race=Asian, alone or in combination (2015 ACS 5-year estimate)}
+\item{NativeHawaiianPacificIslander}{County Population, Race=Native Hawaiian / Pacific Islander, alone or in combination (2015 ACS 5-year estimate)}
+\item{OtherRace}{County Population, Race=Other, alone or in combination (2015 ACS 5-year estimate)}
+\item{WhiteAlone}{County Population, Race=White (2015 ACS 5-year estimate)}
+\item{BlackAlone}{County Population, Race=Black/African American (2015 ACS 5-year estimate)}
+\item{AmericanIndianAlaskaNativeAlone}{County Population, Race=American Indian / Alaska Native (2015 ACS 5-year estimate)}
+\item{AsianAlone}{County Population, Race=Asian (2015 ACS 5-year estimate)}
+\item{NativeHawaiianPacificIslanderAlone}{County Population, Race=Native Hawaiian / Pacific Islander (2015 ACS 5-year estimate)}
+\item{OtherRaceAlone}{County Population, Race=Other (2015 ACS 5-year estimate)}
+\item{WhiteBlack}{County Population, Race=White and Black/African American (2015 ACS 5-year estimate)}
+\item{WhiteAmericanIndianAlaskaNative}{County Population, Race=White and American Indian / Alaska Native (2015 ACS 5-year estimate)}
+\item{WhiteAsian}{County Population, Race=White and Asian (2015 ACS 5-year estimate)}
+\item{BlackAmericanIndianAlaskaNative}{County Population, Race=Black/African American and American Indian / Alaska Native (2015 ACS 5-year estimate)}
 \item{Hispanic}{County Population, Ethnicity=Hispanic (2015 ACS 5-year estimate)}
 \item{SimpsonDiversityIndex}{Inverse Simpson Diversity Index}
 \item{Population25Plus}{County Population Age 25+ (2015 ACS 5-year estimate)}
@@ -54,9 +64,9 @@
 \item{TotalEmp2001}{County Total Employment in 2001}
 \item{TotalEmp2015}{County Total Employment in 2015}
 \item{LandAreaSqMiles}{County Land Area (in square miles)}
-\item{Employment}{County Employment, Oct 2015}
-\item{LaborForce}{County Labor Force, Oct 2015}
-\item{Unemployment}{County Unemployment, Oct 2015}
+\item{Employment}{County Employment, Oct 2016}
+\item{LaborForce}{County Labor Force, Oct 2016}
+\item{Unemployment}{County Unemployment, Oct 2016}
 \item{NCHS_UrbanRural2013}{CDC census-based NCHS Urban-Rural Classification Scheme for Counties (2010 Census)}
 \item{NCHS_UrbanRural2006}{CDC census-based NCHS Urban-Rural Classification Scheme for Counties (2000 Census)}
 \item{NCHS_UrbanRural1990}{CDC census-based NCHS Urban-Rural Classification Scheme for Counties (1990 Census)}
@@ -65,6 +75,22 @@
 \item{Separated}{Total separated population (2015 ACS 5-year estimates)}
 \item{Divorced}{Total divorced population (2015 ACS 5-year estimates)}
 \item{NeverMarried}{Total never-married population (2015 ACS 5-year estimates)}
+\item{Uninsured}{Total without health insurance (2015 ACS 5-year estimates)}
+\item{ForeignBorn}{Total foreign born population (2015 ACS 5-year estimates)}
+\item{NonCitizen}{Total non-citizen population (2015 ACS 5-year estimates)}
+\item{Disability}{Total population with disability (2015 ACS 5-year estimates)}
+\item{TotalSSI}{Total persons receiving SSI benefits in 2015 (SSI Recipients by State/County)}
+\item{AgedSSI}{Total persons receiving SSI aged benefits in 2015 (SSI Recipients by State/County)}
+\item{BlindDisabledSSI}{Total persons receiving SSI blind/disabled benefits in 2015 (SSI Recipients by State/County)}
+\item{OASDI}{Total persons receiving OASDI benefits in 2015 (SSI Recipients by State/County)}
+\item{SSIPayments}{Total SSI payments received in 2015 (SSI Recipients by State/County)}
+\item{WoodardAmericanNation}{The "Nation" to which the county belongs, in Colin Woodard's "American Nations"}
+\item{FoundryCounty}{Whether the county is part of "The Foundry", one of the nine Nations of North America defined by Joel Garreau (roughly, the rustbelt)}
+\item{MexicanBorderCounty}{Whether the county is within approximately 75 miles of the Mexican border}
+\item{TotalReligiousAdherents}{Total number of religious adherents (2010 ARDA Religious Cong/Membership Survey)}
+\item{EvangelicalAdherents}{Evangelical religious adherents (2010 ARDA Religious Cong/Membership Survey)}
+\item{CatholicAdherents}{Catholic religious adherents (2010 ARDA Religious Cong/Membership Survey)}
+\item{MormonAdherents}{Mormon religious adherents (2010 ARDA Religious Cong/Membership Survey)}
 }}
 \usage{
 CountyCharacteristics
